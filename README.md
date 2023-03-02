@@ -148,4 +148,5 @@ saiashish@MBP-C02F5ASXMD6M connect % docker-compose up kafka-cluster
    ⠙ e0ab8373972d Waiting                                                  0.1s
 ```
 
+<img width="677" alt="Screenshot 2023-03-03 at 1 25 59 AM" src="https://user-images.githubusercontent.com/43849911/222538204-76ce8406-cc67-408d-aaae-bac2c1af2d51.png">
 
