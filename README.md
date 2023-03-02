@@ -220,6 +220,10 @@ docker run --rm -it --net=host landoop/fast-data-dev bash
 
 kafka-console-consumer --topic demo-kafka-connect --from-beginning --bootstrap-server 127.0.0.1:9092
 {"schema":{"type":"string","optional":false},"payload":"sai"}
+
+exit 
+
+docker rmi $(docker images -a -q) -f
 ```
 
 <img width="816" alt="Screenshot 2023-03-03 at 2 25 39 AM" src="https://user-images.githubusercontent.com/43849911/222550255-82bf90a5-bf2b-4c70-b2b6-ed7eec292665.png">
