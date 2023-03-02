@@ -152,3 +152,35 @@ saiashish@MBP-C02F5ASXMD6M connect % docker-compose up kafka-cluster
 
 <img width="1785" alt="Screenshot 2023-03-03 at 1 27 17 AM" src="https://user-images.githubusercontent.com/43849911/222538519-e3e50a49-f30d-4b38-a78a-c2f7d6b7196b.png">
 
+```
+docker run --rm -it --net=host landoop/fast-data-dev bash
+Unable to find image 'landoop/fast-data-dev:latest' locally
+latest: Pulling from landoop/fast-data-dev
+01b5b2efb836: Pull complete 
+9069d523e451: Pull complete 
+d68846b11d1f: Pull complete 
+c1e1aae3ab71: Pull complete 
+791c0005650d: Pull complete 
+2dcfd373dd63: Pull complete 
+e926b621b261: Pull complete 
+ac870067259c: Pull complete 
+9d61deafb23e: Pull complete 
+cbea4bd8ece3: Pull complete 
+0b0e67c37d2a: Pull complete 
+8726b89bf065: Pull complete 
+c68ec3329e49: Pull complete 
+Digest: sha256:e8de236d5b8e6e1ab0ded027d2db4b731474475dc17573787a0b29b1c9b15aba
+Status: Downloaded newer image for landoop/fast-data-dev:latest
+
+root@fast-data-dev > 
+kafka-topics --create --topic demo-kafka-connect --partitions 3 --replication-factor 1 --zookeeper 127.0.0.1:2181
+kafka-topics --create --topic demo-kafka-connect --partitions 3 --replication-factor 1 --bootstrap-server 127.0.0.1:9092
+
+root@fast-data-dev / $ kafka-topics --create --topic demo-kafka-connect --partitions 3 --replication-factor 1 --bootstrap-server 127.0.0.1:9092
+Created topic demo-kafka-connect.
+
+```
+
+<img width="559" alt="Screenshot 2023-03-03 at 1 58 08 AM" src="https://user-images.githubusercontent.com/43849911/222544438-5a1d8e0a-432d-4fbb-95fb-d3c877cafbf9.png">
+
+<img width="1712" alt="Screenshot 2023-03-03 at 1 58 58 AM" src="https://user-images.githubusercontent.com/43849911/222544600-72b291eb-36f4-4a1c-9e1c-322753fbfa50.png">
