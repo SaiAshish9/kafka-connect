@@ -74,3 +74,8 @@ Conn 1 is running and is coordinating among different tasks.
 ```
 If one worker node fails then rebalancing them . Big data systems concepts via Spark can be applied here as well.
 ```
+
+<img width="518" alt="Screenshot 2023-03-03 at 12 06 12 AM" src="https://user-images.githubusercontent.com/43849911/222520787-47e1c0a2-5b97-4f7f-a068-920afde548f4.png">
+
+<img width="627" alt="Screenshot 2023-03-03 at 12 10 44 AM" src="https://user-images.githubusercontent.com/43849911/222521805-65e39a13-fac7-4454-a152-3e94d9620c34.png">
+
