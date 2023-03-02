@@ -40,14 +40,21 @@ Configurations needs to be handled carefully via jar file
 In order to efficiently work with kafka connect, it is helpful to establish a few major concepts.
 
 
-Connector: It is a job that manages and coordinates the tasks. It decides how to split the data copying work between
+1. Connector: It is a job that manages and coordinates the tasks. It decides how to split the data copying work between
 the tasks.
 
-Task is a piece of work that provides service to accomplish the actual job.
+2. Task is a piece of work that provides service to accomplish the actual job.
+
+3. Worker is the node that is running the connector and its tasks.
+
+Connector is splitting the data copy activity into multiple small chunks.
 
 Connectors divide the actual job into smaller pieces in order to have parallelism and scalable data copying with
 very little configuration.
 
+Sometimes we need to push the data from kafka cluster to non kafka cluster.
+
+How the different tasks are synchronised and coordination is established , that is done by the connector.
 
 ```
 
