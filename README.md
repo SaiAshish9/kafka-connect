@@ -63,6 +63,10 @@ For production we can use distributed env.
 
 ```
 Kafka connect cluster at distributed environment:
+
+All are working parallely but in diff. nodes that why its called distributed node.
+
+Conn 1 is running and is coordinating among different tasks.
 ```
 
 <img width="560" alt="Screenshot 2023-03-02 at 11 59 48 PM" src="https://user-images.githubusercontent.com/43849911/222519511-88881506-55ff-4063-8870-7d242d1af805.png">
