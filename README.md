@@ -223,3 +223,7 @@ kafka-console-consumer --topic demo-kafka-connect --from-beginning --bootstrap-s
 ```
 
 <img width="816" alt="Screenshot 2023-03-03 at 2 25 39 AM" src="https://user-images.githubusercontent.com/43849911/222550255-82bf90a5-bf2b-4c70-b2b6-ed7eec292665.png">
+
+<img width="940" alt="Screenshot 2023-03-03 at 2 32 25 AM" src="https://user-images.githubusercontent.com/43849911/222552060-4c3555e9-0f7c-4fda-9ff5-a55d12e1485d.png">
+
+<img width="910" alt="Screenshot 2023-03-03 at 2 32 38 AM" src="https://user-images.githubusercontent.com/43849911/222552100-f9ac0a6d-8643-43b0-a7cf-0c685ac5ae2f.png">
