@@ -199,4 +199,18 @@ Created topic demo-kafka-connect.
 
 <img width="1788" alt="Screenshot 2023-03-03 at 2 14 48 AM" src="https://user-images.githubusercontent.com/43849911/222547612-9f2df2f5-d12c-4be7-9df4-0c45a3eed9be.png">
 
+<img width="817" alt="Screenshot 2023-03-03 at 2 16 18 AM" src="https://user-images.githubusercontent.com/43849911/222548029-cb93f568-8ad4-4e7f-8969-bdc95777af63.png">
 
+```
+docker ps
+a84f2588f16c   landoop/fast-data-dev:cp3.3.0   "/usr/local/bin/dumb…"   50 minutes ago   Up 50 minutes   0.0.0.0:2181->2181/tcp, 0.0.0.0:3030->3030/tcp, 0.0.0.0:8081-8083->8081-8083/tcp, 0.0.0.0:9092->9092/tcp, 0.0.0.0:9581-9585->9581-9585/tcp, 3031/tcp   connect-kafka-cluster-1
+
+docker exec -it a84f bash
+touch demo-file.txt
+
+echo "sai" >> demo-file.txt
+
+<img width="1788" alt="Screenshot 2023-03-03 at 2 20 31 AM" src="https://user-images.githubusercontent.com/43849911/222549063-3645c350-b29d-4d23-95d1-70b529a2ebc8.png">
+
+
+```
