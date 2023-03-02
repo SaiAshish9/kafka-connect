@@ -178,10 +178,13 @@ Digest: sha256:e8de236d5b8e6e1ab0ded027d2db4b731474475dc17573787a0b29b1c9b15aba
 Status: Downloaded newer image for landoop/fast-data-dev:latest
 
 root@fast-data-dev > 
-kafka-topics --create --topic demo-kafka-connect --partitions 3 --replication-factor 1 --zookeeper 127.0.0.1:2181
-kafka-topics --create --topic demo-kafka-connect --partitions 3 --replication-factor 1 --bootstrap-server 127.0.0.1:9092
+kafka-topics --create --topic demo-kafka-connect --partitions 3 --replication-factor 1 
+--zookeeper 127.0.0.1:2181
+kafka-topics --create --topic demo-kafka-connect --partitions 3 --replication-factor 1 
+--bootstrap-server 127.0.0.1:9092
 
-root@fast-data-dev / $ kafka-topics --create --topic demo-kafka-connect --partitions 3 --replication-factor 1 --bootstrap-server 127.0.0.1:9092
+root@fast-data-dev / $ kafka-topics --create --topic demo-kafka-connect --partitions 3 
+--replication-factor 1 --bootstrap-server 127.0.0.1:9092
 Created topic demo-kafka-connect.
 
 ```
