@@ -34,6 +34,23 @@ So its basically a jar file which different developers can edit.
 Configurations needs to be handled carefully via jar file
 ```
 
+<img width="982" alt="Screenshot 2023-03-02 at 11 33 00 PM" src="https://user-images.githubusercontent.com/43849911/222513342-54da1aff-504a-4cf5-88dd-1862947d15d8.png">
+
+```
+In order to efficiently work with kafka connect, it is helpful to establish a few major concepts.
+
+
+Connector: It is a job that manages and coordinates the tasks. It decides how to split the data copying work between
+the tasks.
+
+Task is a piece of work that provides service to accomplish the actual job.
+
+Connectors divide the actual job into smaller pieces in order to have parallelism and scalable data copying with
+very little configuration.
+
+
+```
+
 
 
 
