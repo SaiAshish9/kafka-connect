@@ -150,3 +150,5 @@ saiashish@MBP-C02F5ASXMD6M connect % docker-compose up kafka-cluster
 
 <img width="677" alt="Screenshot 2023-03-03 at 1 25 59 AM" src="https://user-images.githubusercontent.com/43849911/222538204-76ce8406-cc67-408d-aaae-bac2c1af2d51.png">
 
+<img width="1785" alt="Screenshot 2023-03-03 at 1 27 17 AM" src="https://user-images.githubusercontent.com/43849911/222538519-e3e50a49-f30d-4b38-a78a-c2f7d6b7196b.png">
+
