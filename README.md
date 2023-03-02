@@ -1,6 +1,10 @@
 https://kafka.apache.org/documentation/#connect
 
 ```
+file got read from local docker container file at ladoop
+```
+
+```
 Let's say we've multiple data sources (in) to ingest data into kafka cluster (multiple target data store(out)) from where we need
 to write data to kafka cluster.
 
