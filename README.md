@@ -79,4 +79,6 @@ If one worker node fails then rebalancing them . Big data systems concepts via S
 
 <img width="627" alt="Screenshot 2023-03-03 at 12 10 44 AM" src="https://user-images.githubusercontent.com/43849911/222521805-65e39a13-fac7-4454-a152-3e94d9620c34.png">
 
+```
 For standalone within one worker only all the tasks will run.
+```
