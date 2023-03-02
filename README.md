@@ -111,3 +111,14 @@ It is tough to achieve fault tolerance, exactly once, distribution and ordering.
 
 Kafka data can be used to don't rewrite code that someone else has written instead use someone else connector and bring own configuration.
 ```
+
+```
+Simplify and improve getting data in and out of kafka.
+
+It provides connectors to easily get data in and out of kafka.
+
+Source => Kafka Producer API (Kafka Connect Source)
+Kafka => Sink Consumer API (Kafka Connect Sink)
+```
+
+
