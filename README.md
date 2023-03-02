@@ -184,3 +184,7 @@ Created topic demo-kafka-connect.
 <img width="559" alt="Screenshot 2023-03-03 at 1 58 08 AM" src="https://user-images.githubusercontent.com/43849911/222544438-5a1d8e0a-432d-4fbb-95fb-d3c877cafbf9.png">
 
 <img width="1712" alt="Screenshot 2023-03-03 at 1 58 58 AM" src="https://user-images.githubusercontent.com/43849911/222544600-72b291eb-36f4-4a1c-9e1c-322753fbfa50.png">
+
+<img width="1789" alt="Screenshot 2023-03-03 at 1 59 55 AM" src="https://user-images.githubusercontent.com/43849911/222544773-715474f3-621c-4617-909e-bc54a5a3a306.png">
+
+
