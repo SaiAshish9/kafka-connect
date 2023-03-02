@@ -94,3 +94,20 @@ Kafka => Sink Consumer API (topic in kafka to kafka)
 Sink => App Consumer API
 ```
 
+```
+Kafka Connect source API to easily have a source and puts all the data into kafka
+
+Kafka Streams is used to do transformations on kafka topics.
+
+Kafka Sink is used to get topics out of kafka wherever we want
+
+Kafka Connect help simplify and improve getting data in and out of kafka.
+
+Programmers always want to import data from same sources: Databases, JDBC, Couchbase and Twitter, etc.
+
+Programmers always want to store data into same sinka: S3, ElasticSearch etc.
+
+It is tough to achieve fault tolerance, exactly once, distribution and ordering. Some developers may have already done that job.
+
+Kafka data can be used to don't rewrite code that someone else has written instead use someone else connector and bring own configuration.
+```
