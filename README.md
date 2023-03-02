@@ -121,4 +121,31 @@ Source => Kafka Producer API (Kafka Connect Source)
 Kafka => Sink Consumer API (Kafka Connect Sink)
 ```
 
+```
+saiashish@MBP-C02F5ASXMD6M connect % docker-compose up kafka-cluster
+[+] Running 0/1
+ ⠴ kafka-cluster Pulling                                                   4.6s
+   ⠋ b56ae66c2937 Pulling fs layer                                         0.0s
+   ⠋ 1aa8af445446 Pulling fs layer                                         0.0s
+   ⠋ 4c2cdd913f21 Pulling fs layer                                         0.0s
+   ⠋ 990edf28e90a Waiting                                                  0.0s
+   ⠋ 19496c140f70 Waiting                                                  0.0s
+   ⠋ 70477240e7e2 Waiting                                                  0.0s
+   ⠋ ce8f224d79a7 Waiting                                                  0.0s
+   ⠋ e0ab8373972d Waiting                                                  0.0s
+   ⠋ 5f61e765a6e6 Waiting                                                  0.0s
+   ⠋ d59ba5b8d22e Waiting                                                  0.0s
+   ⠋ 8aae69f6b136 Waiting                                                  0.0s
+[+] Running 0/352 Waiting                                                  0.0s
+ ⠦ kafka-cluster Pulling                                                   4.7s
+   ⠙ b56ae66c2937 Pulling fs layer                                         0.1s
+   ⠙ 1aa8af445446 Pulling fs layer                                         0.1s
+   ⠙ 4c2cdd913f21 Pulling fs layer                                         0.1s
+   ⠙ 990edf28e90a Waiting                                                  0.1s
+   ⠙ 19496c140f70 Waiting                                                  0.1s
+   ⠙ 70477240e7e2 Waiting                                                  0.1s
+   ⠙ ce8f224d79a7 Waiting                                                  0.1s
+   ⠙ e0ab8373972d Waiting                                                  0.1s
+```
+
 
