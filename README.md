@@ -82,3 +82,15 @@ If one worker node fails then rebalancing them . Big data systems concepts via S
 ```
 For standalone within one worker only all the tasks will run.
 ```
+
+<img width="962" alt="Screenshot 2023-03-03 at 12 28 30 AM" src="https://user-images.githubusercontent.com/43849911/222525525-08829f85-5a6e-4caf-94c5-ac2a8bf1b39c.png">
+
+```
+Why Kafka Connect And Streams:
+
+Source => Kafka Producer API (topic to kafka)
+Kafka => Kafka Consumer, Producer APi (topic in kafka to create another topic in kafka)
+Kafka => Sink Consumer API (topic in kafka to kafka)
+Sink => App Consumer API
+```
+
