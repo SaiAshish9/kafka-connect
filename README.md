@@ -30,4 +30,8 @@ Kafak connects solves one of our major problem. If we've different sources and t
 and publishing to kafka cluster to different target systems, we can use reusable a configuration driven helper called kafka connect.
 
 So its basically a jar file which different developers can edit.
+
+Configurations needs to be handled carefully via jar file
 ```
+
+
