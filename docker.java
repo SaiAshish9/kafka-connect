@@ -1,4 +1,4 @@
-```
+/*
 version: '2'
 
 services: 
@@ -21,5 +21,4 @@ services:
         OPTS: -Dindex.number_of_shards=1 -Dindex.number_of_replicas=0
       ports:
         - "9200:9200"
-  
-```
+*/
